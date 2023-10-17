@@ -1,4 +1,5 @@
-[
+{
+  productos: [
   {
     "id": "d5d26be0-5760-4d0d-9dd6-0b5f7c21e97a",
     "product_nombre": "Producto 1",
@@ -224,4 +225,5 @@
       }
     ]
   }
-]
+  ]
+}
