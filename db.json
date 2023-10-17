@@ -1,229 +1,31 @@
 {
-  productos: [
-  {
-    "id": "d5d26be0-5760-4d0d-9dd6-0b5f7c21e97a",
-    "product_nombre": "Producto 1",
-    "descripcion": "Descripción del Producto 1",
-    "activo": true,
-    "precio_compra": 39.99,
-    "precio_minorista": 49.99,
-    "precio_mayorista": 44.99,
-    "images": [
-      {
-        "id": "e097e6f9-3686-4dd2-b071-8c1ac8445de6",
-        "url": "https://example.com/image1.jpg",
-        "ancho": "800px",
-        "alto": "600px"
-      },
-      {
-        "id": "b1b84d12-1c4f-457f-b3f4-832d82f8b69f",
-        "url": "https://example.com/image2.jpg",
-        "ancho": "800px",
-        "alto": "600px"
-      }
-    ],
-    "atributos": {
-      "id": "32f42bc7-e046-4e1f-85d0-37d6e8d853f9",
-      "peso": "1.5 kg",
-      "origen": "País 1",
-      "dimensiones": "20x30x10 cm",
-      "material": "Material del Producto 1",
-      "color": "Rojo"
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
     },
-    "marca": {
-      "id": "996634e1-75f7-4b67-8a20-18a4c8fda2a7",
-      "nombre": "Marca 1"
+    {
+      "id": 2,
+      "title": "Post 2"
     },
-    "categorias": [
-      {
-        "id": "848e4d3c-17a6-48ea-ba89-f9c60f9e0ae3",
-        "nombre": "Electrónica"
-      },
-      {
-        "id": "ea31a318-854f-4572-9bca-2b49f0e0d96c",
-        "nombre": "Hogar"
-      }
-    ]
-  },
-  {
-    "id": "2",
-    "product_nombre": "Producto 2",
-    "descripcion": "Descripción del Producto 2",
-    "activo": true,
-    "precio_compra": 29.99,
-    "precio_minorista": 39.99,
-    "precio_mayorista": 34.99,
-    "images": [
-      {
-        "id": "3",
-        "url": "https://example.com/image3.jpg",
-        "ancho": "800px",
-        "alto": "600px"
-      },
-      {
-        "id": "4",
-        "url": "https://example.com/image4.jpg",
-        "ancho": "800px",
-        "alto": "600px"
-      }
-    ],
-    "atributos": {
-      "id": "5",
-      "peso": "2.0 kg",
-      "origen": "País 2",
-      "dimensiones": "25x35x12 cm",
-      "material": "Material del Producto 2",
-      "color": "Azul"
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
     },
-    "marca": {
-      "id": "6",
-      "nombre": "Marca 2"
-    },
-    "categorias": [
-      {
-        "id": "7",
-        "nombre": "Electrónica"
-      },
-      {
-        "id": "8",
-        "nombre": "Hogar"
-      }
-    ]
-  },
-  {
-    "id": "9",
-    "product_nombre": "Producto 3",
-    "descripcion": "Descripción del Producto 3",
-    "activo": true,
-    "precio_compra": 49.99,
-    "precio_minorista": 59.99,
-    "precio_mayorista": 54.99,
-    "images": [
-      {
-        "id": "10",
-        "url": "https://example.com/image5.jpg",
-        "ancho": "800px",
-        "alto": "600px"
-      },
-      {
-        "id": "11",
-        "url": "https://example.com/image6.jpg",
-        "ancho": "800px",
-        "alto": "600px"
-      }
-    ],
-    "atributos": {
-      "id": "12",
-      "peso": "1.8 kg",
-      "origen": "País 3",
-      "dimensiones": "22x32x11 cm",
-      "material": "Material del Producto 3",
-      "color": "Verde"
-    },
-    "marca": {
-      "id": "13",
-      "nombre": "Marca 3"
-    },
-    "categorias": [
-      {
-        "id": "14",
-        "nombre": "Electrónica"
-      },
-      {
-        "id": "15",
-        "nombre": "Hogar"
-      }
-    ]
-  },
-  {
-    "id": "16",
-    "product_nombre": "Producto 4",
-    "descripcion": "Descripción del Producto 4",
-    "activo": true,
-    "precio_compra": 59.99,
-    "precio_minorista": 69.99,
-    "precio_mayorista": 64.99,
-    "images": [
-      {
-        "id": "17",
-        "url": "https://example.com/image7.jpg",
-        "ancho": "800px",
-        "alto": "600px"
-      },
-      {
-        "id": "18",
-        "url": "https://example.com/image8.jpg",
-        "ancho": "800px",
-        "alto": "600px"
-      }
-    ],
-    "atributos": {
-      "id": "19",
-      "peso": "2.2 kg",
-      "origen": "País 4",
-      "dimensiones": "24x34x13 cm",
-      "material": "Material del Producto 4",
-      "color": "Negro"
-    },
-    "marca": {
-      "id": "20",
-      "nombre": "Marca 4"
-    },
-    "categorias": [
-      {
-        "id": "21",
-        "nombre": "Electrónica"
-      },
-      {
-        "id": "22",
-        "nombre": "Hogar"
-      }
-    ]
-  },
-  {
-    "id": "23",
-    "product_nombre": "Producto 5",
-    "descripcion": "Descripción del Producto 5",
-    "activo": true,
-    "precio_compra": 69.99,
-    "precio_minorista": 79.99,
-    "precio_mayorista": 74.99,
-    "images": [
-      {
-        "id": "24",
-        "url": "https://example.com/image9.jpg",
-        "ancho": "800px",
-        "alto": "600px"
-      },
-      {
-        "id": "25",
-        "url": "https://example.com/image10.jpg",
-        "ancho": "800px",
-        "alto": "600px"
-      }
-    ],
-    "atributos": {
-      "id": "26",
-      "peso": "1.6 kg",
-      "origen": "País 5",
-      "dimensiones": "21x31x11 cm",
-      "material": "Material del Producto 5",
-      "color": "Blanco"
-    },
-    "marca": {
-      "id": "27",
-      "nombre": "Marca 5"
-    },
-    "categorias": [
-      {
-        "id": "28",
-        "nombre": "Electrónica"
-      },
-      {
-        "id": "29",
-        "nombre": "Hogar"
-      }
-    ]
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-  ]
 }
